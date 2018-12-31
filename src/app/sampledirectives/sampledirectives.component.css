@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    width:100%;
+    float: left;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:20px;
+}
+.sample-for-if{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.checkbox-content{
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    background-color: red;
+   /* display: none;
+    visibility: hidden;*/
+}

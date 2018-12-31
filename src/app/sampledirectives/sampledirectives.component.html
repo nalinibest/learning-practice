@@ -1,0 +1,11 @@
+<div class="title">
+Ssample Directives works!
+</div>
+<div class="sample-for-if">
+  <input type="checkbox" value="male" [(ngModel)]="msg" (ngModelChange)="changeStatus($event)">Message
+</div>
+<div *ngIf="msg" class="checkbox-content">
+  <p>
+    Wish You Happy New Year 2019!!!
+  </p>
+</div>

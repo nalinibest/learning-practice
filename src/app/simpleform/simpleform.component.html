@@ -1,0 +1,31 @@
+<div class="addcustomer">
+    <div class="row">
+    <div class="addcustomerleft">
+        <label for="name">Enter Name :</label>
+    </div>
+    <div class="addcustomerright">
+        <input type="text" [(ngModel)]="name">
+    </div>
+  </div>
+  <div class="row">
+    <div class="addcustomerleft">
+        <label for="email">Enter Email :</label>
+    </div>
+    <div class="addcustomerright">
+        <input type="text" [(ngModel)]="email">
+    </div>
+    </div>
+    <div class="row">
+        <div class="addcustomerleft">
+            <label for="email">Enter Phone Number :</label>
+        </div>
+        <div class="addcustomerright">
+            <input type="text" [(ngModel)]="phonenumber">
+        </div>
+        </div>
+        <div class="row">
+              <div class="addcustomerleft">
+          <button (click)="addDetails()">Add Member</button>
+          </div>
+        </div>
+  </div>
